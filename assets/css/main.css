@@ -29,7 +29,7 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
-	
+
 body {
 	line-height: 1;
 }
@@ -3396,7 +3396,6 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3409,7 +3408,7 @@ input, select, textarea {
 		border-bottom: 0 !important;
 		cursor: default;
 		height: 60vh;
-		margin-bottom: -3.25em;
+		margin-bottom: 0.6em;
 		max-height: 32em;
 		min-height: 22em;
 		position: relative;
@@ -3431,7 +3430,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.5;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -4010,6 +4009,10 @@ input, select, textarea {
 
 		#float {
 			float: right;
+		}
+
+		#aboutme {
+			text-align: left;
 		}
 
 		#status {
